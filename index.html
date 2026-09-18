@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>계약서</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Malgun Gothic", "맑은 고딕", Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+      .contract-container {
+        max-width: 800px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 60px 50px;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      }
+      h1 {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 50px;
+        letter-spacing: 5px;
+      }
+      .intro {
+        margin-bottom: 30px;
+        text-indent: 10px;
+      }
+      .section-title {
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 8px;
+      }
+      .article {
+        margin-bottom: 15px;
+        text-align: justify;
+      }
+      .date {
+        text-align: center;
+        margin: 50px 0;
+        font-size: 18px;
+        letter-spacing: 2px;
+      }
+      .signature-section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+      }
+      .party {
+        width: 45%;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 4px;
+      }
+      .party h3 {
+        margin-top: 0;
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+      }
+      .party p {
+        margin: 10px 0;
+      }
+      .stamp {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border: 1px dashed #999;
+        text-align: center;
+        line-height: 50px;
+        font-size: 12px;
+        color: #999;
+      }
+      /* 인쇄 시 여백 최적화 */
+      @media print {
+        body {
+          background: none;
+        }
+        .contract-container {
+          border: none;
+          box-shadow: none;
+          margin: 0;
+          padding: 20mm;
+        }
+      }
+
+      .sign-font {
+        font-family: "Nanum Brush Script", cursive;
+        font-weight: 400;
+        font-size: xx-large;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contract-container">
+      <h1>동 업 계 약 서</h1>
+
+      <div class="intro">
+        <strong>임여준</strong>(이하 "갑"이라 한다)과
+        <strong>김다윤</strong>(이하 "을"이라 한다)은 공동으로 추진하는
+        사업(이하 "본 사업"이라 한다)과 관련하여 다음과 같이 계약을 체결한다.
+      </div>
+
+      <div class="section-title">제 1 조 (목적)</div>
+      <div class="article">
+        본 계약은 "갑"과 "을"이 공동으로 안전하고 신속한 크리스마스 선물 배송 및
+        상시 대비체계 구축을 영위하기 위해 필요한 사항을 규정함을 목적으로 한다.
+      </div>
+
+      <div class="section-title">제 2 조 (업무의 분담)</div>
+      <div class="article">
+        제 1조의 목적을 달성하기 위해 "을"은 상명하복의 원칙을 따라야 한다.
+        "갑"이 제 2조를 악용하는 것을 방지하기 위해 이 조항은 대전하기중학교 및
+        추가적인 학원애서 실시되는 교육 이수 중을 제외한 휴일 및 매주 반복되는
+        당일 일과가 끝난 시간에만 유효하다. 당일 일과는 반복적이지 아니한 일
+        또는 숙제 등 시각이 정해지지 않은 업무를 포함하지 않는다.
+      </div>
+
+      <div class="section-title">제 3 조 (계약의 해지)</div>
+      <div class="article">
+        당사자 일방이 본 계약상의 의무를 위반한 경우, 위반일 이후 최초 등교시
+        키/몸무게를 공개한다. 공개 방식은 위반자 본인이 정하며 최소 2명 이상의
+        사람에게 공개되어야 한다.
+      </div>
+
+      <p style="margin-top: 30px; text-align: justify">
+        위 계약은 "갑"과 "을"이 대전하기중학교 재학 중인 기간동안 유효하며 본
+        계약의 성립을 증명하기 위하여 계약서를 온라인 사이트에 업로드 및 URL을
+        양측에 공유한다.
+      </p>
+
+      <div class="date">2026년 06월 26일</div>
+
+      <div class="signature-section">
+        <!-- 갑 정보 -->
+        <div class="party">
+          <h3>"갑"</h3>
+          <p>성명: 임 여 준</p>
+          <p class="sign-font">임여준</p>
+        </div>
+
+        <!-- 을 정보 -->
+        <div class="party">
+          <h3>"을"</h3>
+          <p>성명: 김 다 윤</p>
+          <p class="sign-font">김다윤</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
